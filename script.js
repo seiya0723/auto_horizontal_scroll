@@ -11,7 +11,7 @@ function scroll(elem,next){
 
     /* クリックされた箇所のスクロールする要素を抜き取る */
     let target  = $(elem).siblings(".data_preview_area");
-    let width   = target.outerWidth()
+    let width   = target.outerWidth();
 
     //押されたボタンに応じて、左右に動く。
     if (next){
